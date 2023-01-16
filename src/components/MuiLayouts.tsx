@@ -1,8 +1,8 @@
 import React from "react";
-import { Box, Stack, Divider, Grid } from "@mui/material";
+import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
 const MuiLayouts = () => {
   return (
-    <>
+    <Paper sx={{ padding: "32px" }} elevation={4}>
       <Stack
         direction="row"
         mt={10}
@@ -54,7 +54,7 @@ const MuiLayouts = () => {
           </Box>
         </Grid>
       </Grid>
-    </>
+    </Paper>
   );
 };
 
