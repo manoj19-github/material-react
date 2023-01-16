@@ -1,3 +1,4 @@
+import "./App.css";
 import MuiButtons from "./components/MuiButtons";
 import MuiTypography from "./components/MuiTypography";
 
